@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>This Makes Me Think Of You</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #e0f7fa, #e1bee7);
+    }
+
+    .flipbook {
+      width: 1056px; /* 2 pages (5.5in each) = 10.5in wide */
+      height: 408px; /* 4.25in tall */
+    }
+
+    .flipbook img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flipbook">
+    <div class="hard"><img src="page1.png" alt="Page 1"></div>
+    <div><img src="page2.png" alt="Page 2"></div>
+    <div><img src="page3.png" alt="Page 3"></div>
+    <div><img src="page4.png" alt="Page 4"></div>
+    <div><img src="page5.png" alt="Page 5"></div>
+    <div><img src="page6.png" alt="Page 6"></div>
+    <div><img src="page7.png" alt="Page 7"></div>
+    <div><img src="page8.png" alt="Page 8"></div>
+    <div><img src="page9.png" alt="Page 9"></div>
+    <div><img src="page10.png" alt="Page 10"></div>
+    <div><img src="page11.png" alt="Page 11"></div>
+    <div><img src="page12.png" alt="Page 12"></div>
+    <div><img src="page13.png" alt="Page 13"></div>
+    <div><img src="page14.png" alt="Page 14"></div>
+    <div><img src="page15.png" alt="Page 15"></div>
+    <div><img src="page16.png" alt="Page 16"></div>
+    <div><img src="page17.png" alt="Page 17"></div>
+    <div><img src="page18.png" alt="Page 18"></div>
+    <div><img src="page19.png" alt="Page 19"></div>
+    <div><img src="page20.png" alt="Page 20"></div>
+    <div><img src="page21.png" alt="Page 21"></div>
+    <div><img src="page22.png" alt="Page 22"></div>
+    <div><img src="page23.png" alt="Page 23"></div>
+    <div><img src="page24.png" alt="Page 24"></div>
+    <div><img src="page25.png" alt="Page 25"></div>
+    <div><img src="page26.png" alt="Page 26"></div>
+    <div><img src="page27.png" alt="Page 27"></div>
+    <div><img src="page28.png" alt="Page 28"></div>
+    <div><img src="page29.png" alt="Page 29"></div>
+    <div><img src="page30.png" alt="Page 30"></div>
+    <div><img src="page31.png" alt="Page 31"></div>
+    <div><img src="page32.png" alt="Page 32"></div>
+    <div><img src="page33.png" alt="Page 33"></div>
+    <div><img src="page34.png" alt="Page 34"></div>
+    <div><img src="page35.png" alt="Page 35"></div>
+    <div><img src="page36.png" alt="Page 36"></div>
+    <div><img src="page37.png" alt="Page 37"></div>
+    <div><img src="page38.png" alt="Page 38"></div>
+    <div><img src="page39.png" alt="Page 39"></div>
+    <div><img src="page40.png" alt="Page 40"></div>
+    <div><img src="page41.png" alt="Page 41"></div>
+    <div><img src="page42.png" alt="Page 42"></div>
+    <div><img src="page43.png" alt="Page 43"></div>
+    <div><img src="page44.png" alt="Page 44"></div>
+    <div><img src="page45.png" alt="Page 45"></div>
+    <div><img src="page46.png" alt="Page 46"></div>
+    <div><img src="page47.png" alt="Page 47"></div>
+    <div><img src="page48.png" alt="Page 48"></div>
+    <div><img src="page49.png" alt="Page 49"></div>
+    <div><img src="page50.png" alt="Page 50"></div>
+    <div class="hard"><img src="page51.png" alt="Page 51"></div>
+  </div>
+
+  <script src="jquery.js"></script>
+  <script src="turn.js"></script>
+  <script>
+    $(".flipbook").turn({
+      width: 1056,  // 2 pages wide (5.5in each = 528px × 2)
+      height: 408,  // 4.25in tall = 408px
+      autoCenter: true
+    });
+  </script>
+</body>
+
+</html>
